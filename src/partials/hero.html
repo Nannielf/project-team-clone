@@ -1,32 +1,78 @@
 <section class="section hero-section">
-    <div class="container hero-container">
-      <div class="hero-text-block">
-        <h1 class="hero-text-title">
-            Welcome to the  
-          <span class="hero-title-color">Food</span>
-          Boutique!
-        </h1>
-        <p class="hero-text-desc">
-            With Food Boutique, you're not just subscribing to food, you're signing up for a fresher, fitter, and happier you.
-        </p>
-      </div>
-      <div class="hero-image-block">
+  <div class="container hero-container">
+    <div class="hero-text-block">
+      <h1 class="hero-text-title">
+          Welcome to the  
+        <span class="hero-title-color">Food</span>
+        Boutique!
+      </h1>
+      <p class="hero-text-desc">
+          With Food Boutique, you're not just subscribing to food, you're signing up for a fresher, fitter, and happier you.
+      </p>
+    </div>
+    <div class="hero-image-block ">
+      <div class="slider">
+      <div class="hero-slider-line">
+      <picture class="hero-image-pic">
+          <source media="(max-width: 767px)"
+          srcset="./img/hero/bgimg1_mob@x1.png 1x, 
+          ./img/hero/bgimg1_mob@x2.png 2x" />
+          <source media="(max-width: 1439px)"
+          srcset="./img/hero/bgimg1_tab@x1.png 1x, 
+          ./img/hero/bgimg1_tab@x2.png 2x" />
+          <source media="(min-width: 1440px)"
+          srcset="./img/hero/bgimg1_pc@x1.png 1x, 
+          ./img/hero/bgimg1_pc@x1.png 2x" />
+          <img class="hero-image" 
+          src="./img/hero/bgimg1_pc@x1.png" alt="Organic Food" />
+        </picture>
         <picture class="hero-image-pic">
-            <source media="(max-width: 767px)"
-            srcset="./img/hero/bgimg_mob@x1.png 1x, 
-            ./img/hero/bgimg_mob@x2.png 2x" />
-            <source media="(max-width: 1439px)"
-            srcset="./img/hero/bgimg_tab@x1.png 1x, 
-            ./img/hero/bgimg_tab@x2.png 2x" />
-            <source media="(min-width: 1440px)"
-            srcset="./img/hero/bgimg_pc@x1.png 1x, 
-            ./img/hero/bgimg_pc@x1.png 2x" />
-            <img class="hero-image" 
-            src="./img/hero/bgimg_pc@x1.png" alt="Organic Food" />
-          </picture>
-          <svg class="hero-organic-icon">
-            <use href="./img/sprite.svg#icon-organic-food"></use>
-          </svg>
+          <source media="(max-width: 767px)"
+          srcset="./img/hero/bgimg2_mob@x1.png 1x, 
+          ./img/hero/bgimg2_mob@x2.png 2x" />
+          <source media="(max-width: 1439px)"
+          srcset="./img/hero/bgimg2_tab@x1.png 1x, 
+          ./img/hero/bgimg2_tab@x2.png 2x" />
+          <source media="(min-width: 1440px)"
+          srcset="./img/hero/bgimg2_pc@x1.png 1x, 
+          ./img/hero/bgimg2_pc@x1.png 2x" />
+          <img class="hero-image" 
+          src="./img/hero/bgimg2_pc@x1.png" alt="Organic Food" />
+        </picture>
+        <picture class="hero-image-pic">
+          <source media="(max-width: 767px)"
+          srcset="./img/hero/bgimg3_mob@x1.png 1x, 
+          ./img/hero/bgimg3_mob@x2.png 2x" />
+          <source media="(max-width: 1439px)"
+          srcset="./img/hero/bgimg3_tab@x1.png 1x, 
+          ./img/hero/bgimg3_tab@x2.png 2x" />
+          <source media="(min-width: 1440px)"
+          srcset="./img/hero/bgimg3_pc@x1.png 1x, 
+          ./img/hero/bgimg3_pc@x1.png 2x" />
+          <img class="hero-image" 
+          src="./img/hero/bgimg3_pc@x1.png" alt="Organic Food" />
+        </picture>
+        <picture class="hero-image-pic">
+          <source media="(max-width: 767px)"
+          srcset="./img/hero/bgimg4_mob@x1.png 1x, 
+          ./img/hero/bgimg4_mob@x2.png 2x" />
+          <source media="(max-width: 1439px)"
+          srcset="./img/hero/bgimg4_tab@x1.png 1x, 
+          ./img/hero/bgimg4_tab@x2.png 2x" />
+          <source media="(min-width: 1440px)"
+          srcset="./img/hero/bgimg4_pc@x1.png 1x, 
+          ./img/hero/bgimg4_pc@x1.png 2x" />
+          <img class="hero-image" 
+          src="./img/hero/bgimg4_pc@x1.png" alt="Organic Food" />
+        </picture>
+
       </div>
     </div>
-  </section>
+      <svg class="hero-organic-icon">
+        <use href="./img/sprite.svg#icon-organic-food"></use>
+      </svg>
+    
+    </div>
+  </div>
+  <script type="module" src="./js/hero.js"></script>
+</section>

@@ -1,17 +1,16 @@
-
 .hero-section {
     margin-top: 72px;
-}
-.container {
-}
-.hero-container {
-}
-.hero-text-block {
+  }
+  .container {
+  }
+  .hero-container {
+  }
+  .hero-text-block {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.hero-text-title {
+  }
+  .hero-text-title {
     /* font-family: var(--main-font); */
     text-align: center;
     font-size: 44px;
@@ -19,11 +18,11 @@
     font-weight: 500;
     line-height: 48px; /* 109.091% */
     letter-spacing: -0.88px;
-}
-.hero-title-color {
+  }
+  .hero-title-color {
     color: var(--primary-dark-color);
-}
-.hero-text-desc {
+  }
+  .hero-text-desc {
     width: 292px;
     text-align: center;
     font-style: normal;
@@ -31,31 +30,48 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 18px; /* 128.571% */
-}
-.hero-image-block {
+  }
+  .hero-image-block {
     display: flex;
     position: relative;
     margin-top: 32px;
-}
-.hero-image-pic {
+  }
+  .hero-image-pic {
     border-radius: 30px;
-    width:100%;
-}
-.hero-image {
+    max-width: 335px;
+  }
+  .hero-image {
     border-radius: 30px;
-}
-.hero-organic-icon {
+    max-width: 335px;
+  }
+  .hero-organic-icon {
     position: absolute;
     width: 100px;
     height: 100px;
     top: -7px;
     right: 8px;
-}
-@media only screen and (min-width: 768px) {
+  }
+  .slider {
+    /* 
+    margin: 30px auto; */
+    /* width: 100%; */
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .hero-slider-line {
+    /* width: 900px; */
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+  }
+  
+  @media only screen and (min-width: 768px) {
     .hero-section {
         margin-top: 116px;
     }
-
+  
     .hero-text-title {
         width: 658px;
         font-size: 80px;
@@ -78,13 +94,21 @@
         top: -30px;
         right: 10px;
     }
-}
-
-@media only screen and (min-width: 1440px) {
+    .hero-image-pic {
+        width: 704px;
+        max-width: 704px;
+    }
+    .hero-image {
+        width: 704px;
+        max-width: 704px;
+    }
+  }
+  
+  @media only screen and (min-width: 1440px) {
     .hero-section {
         margin-top: 77px;
     }
-
+  
     .hero-text-title {
         width: auto;
     }
@@ -96,12 +120,15 @@
     }
     .hero-image-pic {
         width:1240px;
+        max-width: 1240px;
     }
     .hero-image {
         width:1240px;
+        max-width: 1240px;
     }
     .hero-organic-icon {
         top: -50px;
         right: 20px;
     }
-}
+  
+  }
